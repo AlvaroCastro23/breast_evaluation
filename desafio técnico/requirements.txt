@@ -1,2 +1,20 @@
-# Adicione aqui as dependências do projeto
-flask
+# === Core framework ===
+flask              # Web framework simples para criar a API e o front-end de upload
+
+# === Deep Learning ===
+torch              # PyTorch: framework principal para treinar e usar redes neuronais
+torchvision        # Conjuntos de utilidades para visão computacional (transformações, datasets)
+
+# === Dataset ===
+medmnist           # Biblioteca oficial para carregar o BreastMNIST e outros datasets médicos
+
+# === Processamento de dados ===
+numpy              # Operações numéricas e arrays
+pillow             # Leitura e manipulação de imagens (PIL fork)
+scikit-learn       # Métricas (accuracy, AUC, confusion matrix) e utilidades
+
+# === Visualização (apenas para treino/relatório) ===
+matplotlib         # Geração de gráficos de treino e métricas
+
+# === Deploy (opcional, produção) ===
+gunicorn           # Servidor WSGI recomendado para correr Flask em produção
